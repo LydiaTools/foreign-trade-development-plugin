@@ -48,6 +48,12 @@ npm run package
 
 完整说明见 [PRIVACY.md](PRIVACY.md)。
 
+## Codex 复用 Skill
+
+项目内同时保存了 `$foreign-trade-tool-builder` Skill。以后遇到外贸客户定制插件、桌面工具或手机应用时，可以调用它判断哪些业务逻辑可以复用、是否适合使用桌面 Harness，并按客户项目独立完成品牌、数据、测试和交付。
+
+Skill 的权威副本位于 `codex-skill/foreign-trade-tool-builder`；本机通过 `~/.codex/skills/foreign-trade-tool-builder` 调用。
+
 ## 开发与验收
 
 ```bash
